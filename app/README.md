@@ -1,7 +1,7 @@
 Projecto final de Computação Móvel - Ler Guardar Notícias
 ---------------------------------------------------------
 
-Resumo:
+<b>Resumo</b>:
 A app trata-se de um leitor das últimas notícias fornecidas pela API Hacker-News lendo para esse efeito um objecto JSON.
 Por defeito vai buscar as últimas 5 notícias, podendo o utilizador especificar o nº que deseja.
 
