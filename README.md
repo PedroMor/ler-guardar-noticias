@@ -16,8 +16,8 @@ lista da próxima vez que se iniciar a app, não limpando assim as notícias já
 ---------------------------------------------------------
 
 <b>Bugs conhecidos</b>:
-- Por alguns problemas do tipo de notícias que são carregadas por vezes a lista pode demorar mais tempo a carregar ou simplesmente não
-carrega. Dar ordem para carregar apenas 1 ou 2 notícias pode ajudar, se evitar a notícia que causa o problema.
+- Devido a problems com alguns tipos de notícias carregadas por vezes a lista pode demorar mais tempo a carregar ou simplesmente não
+carrega. Dar a ordem de carregar apenas 1 ou 2 notícias pode ajudar, especialmente se evitar o carregamento da notícia que origina o problema.
 - Outro problema passível de ocorrer prende-se com o erro "TransactionTooLargeException", quando a notícia redireciona para site que satura
 o transaction buffer do Binder. O problema poderia ser resolvido com um "Parcel" ou simplesmente não usar WebView e abrir prompt para abrir
 com browser de Internet externo (como por exemplo Chrome etc), mas devido à sua baixa frequência e pelo objectivo final já estar cumprido,
