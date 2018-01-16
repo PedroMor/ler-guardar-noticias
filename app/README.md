@@ -8,10 +8,10 @@ Por defeito vai buscar as últimas 5 notícias, podendo o utilizador especificar
 ------------------------------------------------------------------------------------------------------------------
 
 <b>Funcionamento</b>:
-Assim que a lista é carregada a mesma é guardada em "cache" numa Base de Dados SQLite, podendo ser devolvida instantaneamente essa mesma
+- Assim que a lista é carregada a mesma é guardada em "cache" numa Base de Dados SQLite, podendo ser devolvida instantaneamente essa mesma
 lista da próxima vez que se iniciar a app, não limpando assim as notícias já carregadas anteriormente.
-Se carregar nova lista de notícias a Base de Dados é limpa, seguido de nova escrita com a lista actualizada.
-Ao abrir uma das notícias é carregado uma nova activity com WebView que permite visualizar a mesma.
+- Se carregar nova lista de notícias a Base de Dados é limpa, seguido de nova escrita com a lista actualizada.
+- Ao abrir uma das notícias é carregado uma nova activity com WebView que permite visualizar a mesma.
 
 ---------------------------------------------------------
 
