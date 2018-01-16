@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ler Guardar Noticias</string>
-    <string name="numero_noticias">Nº de notícias a carregar (reduzir caso não carregue)</string>
+    <string name="numero_noticias">Nº de notícias a carregar. (Limitado ao máximo obtido da API)</string>
     <string name="carregar_ultimas">Carregar últimas notícias</string>
     <string name="ler_basedados">Abrir cache offline</string>
     <string name="titulo_listar">Notícias mais recentes</string>
